@@ -1,0 +1,59 @@
+/* new */
+.new {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new h1 {
+    font-size: 1.5rem;
+    color: #262626;
+    padding: 10px 0px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.new p {
+    margin: 10px 0;
+    font-size: 0.8rem;
+    text-align: center;
+    max-width: 300px;
+    color: #6d6d6d;
+}
+
+.new .n-books {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.new .n-books .n-book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid #c7c7c7;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.new .n-books .n-book:hover {
+    background-color: #ffe9c8;
+}
+
+.new .n-books .n-book p {
+    color: #262626;
+    font-size: 0.8rem;
+}
+
+.new .n-books .n-book h3 {
+    font-size: 1rem;
+}
