@@ -17,3 +17,206 @@ a {
 ul {
     list-style: none;
 }
+/* responsive */
+@media(max-width:500px) {
+    header .header-right ul li a {
+        font-size: 0.8rem;
+    }
+
+    header .header-left h3 {
+        font-size: 1rem;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .authors p {
+        max-width: 300px;
+    }
+    .input .input-right input {
+        width: 200px;
+    }
+    .input .input-left p{
+        font-size: 1.2rem !important;
+    }
+}
+
+@media(max-width:330px) {
+    header .header-right ul li a {
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width:300px) {
+    header .header-right {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    header .header-left h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:400px) {
+    .homepage .h-books img {
+        width: 70px;
+    }
+
+    .homepage p {
+        max-width: 200px;
+    }
+
+    .homepage h1 {
+        border-bottom: 1px solid #cccccc;
+        padding: 10px 0;
+    }
+}
+
+@media(max-width:310px) {
+    .homepage .h-books img {
+        width: 50px;
+    }
+}
+
+@media(max-width:250px) {
+    .homepage .h-books {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .homepage .h-books img {
+        margin: 20px 0;
+    }
+
+    .homepage .h-books img {
+        width: 70px;
+    }
+
+    .homepage .h-books img:nth-child(2) {
+        transform: scale(1);
+    }
+
+    .homepage .h-books img:hover {
+        transform: scale(1.2);
+        margin: 0;
+    }
+
+    .new h1 {
+        font-size: 1.2rem;
+    }
+
+    .new .n-books .n-book {
+        padding: 10px 15px;
+    }
+
+    .bestselling h1 {
+        font-size: 1.2rem;
+    }
+
+    .bestselling .bs-books .bs-book {
+        padding: 10px 15px;
+    }
+
+    .authors h1 {
+        font-size: 1.2rem;
+    }
+
+    .authors .a-box {
+        padding: 0;
+    }
+    .input .input-right input {
+        width: 150px;
+    }
+}
+
+@media(max-width:600px) {
+    .brand {
+        padding: 5px;
+    }
+
+    .brand p {
+        font-size: 1rem;
+        max-width: 400px;
+    }
+
+    .bestselling p {
+        max-width: 300px;
+    }
+
+    .authors p {
+        max-width: 400px;
+    }
+}
+
+@media(max-width:210px) {
+    .bestselling h1 {
+        font-size: 1rem;
+    }
+
+    .bestselling p {
+        font-size: 0.7rem;
+    }
+}
+@media(max-width:900px){
+    .input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input .input-left p {
+        border-radius: 10px;
+        padding: 5px;
+        background: rgba(0, 0, 0, 0.5);
+        max-width: 300px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 30px 0;
+    }
+}
+@media(max-width:350px){
+    .input-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input-right a{
+        margin: 10px 0;
+    }
+    .input .input-right input{
+        text-align: center;
+    }
+}
+@media(max-width:1000px){
+    footer .footer1 p {
+        max-width: 150px;
+    }
+    footer .footer1 ul li {
+        width: 20px;
+        height: 20px;
+    }
+    footer .footer1 ul li a {
+        font-size: 0.7rem;
+    }
+}
+@media(max-width:800px){
+    footer{
+     flex-wrap: wrap;
+    }
+    footer .f{
+        margin:10px;
+    }
+    footer .footer1{
+        order: 6;
+    }
+}
