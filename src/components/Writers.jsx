@@ -9,27 +9,27 @@ function Writers() {
             nisi adipisci veniam velit</p>
         <div className="as-box">
             <div className="a-box">
-                <img src="img/ag.jpg" alt="author" />
+                <img src="/react-first-exercise/img/ag.jpg" alt="author" />
                 <h3>Agatha Christie</h3>
                 <p>Lorem ipsum dolor sit</p>
             </div>
             <div className="a-box">
-                <img src="img/ac.jpg" alt="author" />
+                <img src="/react-first-exercise/img/ac.jpg" alt="author" />
                 <h3>Albert Camus</h3>
                 <p>Lorem ipsum dolor sit</p>
             </div>
             <div className="a-box">
-                <img src="img/fd.jpg" alt="author" />
+                <img src="/react-first-exercise/img/fd.jpg" alt="author" />
                 <h3>Fyodor Dostoevsky</h3>
                 <p>Lorem ipsum dolor sit</p>
             </div>
             <div className="a-box">
-                <img src="img/ja.jpg" alt="author" />
+                <img src="/react-first-exercise/img/ja.jpg" alt="author" />
                 <h3>Jane Austen</h3>
                 <p>Lorem ipsum dolor sit</p>
             </div>
             <div className="a-box">
-                <img src="img/lt.jpg" alt="author"  />
+                <img src="/react-first-exercise/img/lt.jpg" alt="author"  />
                 <h3>Lev Tolstoy</h3>
                 <p>Lorem ipsum dolor sit</p>
             </div>

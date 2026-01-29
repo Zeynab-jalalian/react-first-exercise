@@ -34,9 +34,9 @@ function Header() {
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, aperiam</p>
         <a href="#">Shop Now</a>
         <div className="h-books">
-            <img src="img/b1.jpg" alt="book" width="100" />
-            <img src="img/b2.jpg" alt="book" width="100" />
-            <img src="img/b3.jpg" alt="book" width="100" />
+            <img src="/react-first-exercise/img/b1.jpg" alt="book" width="100" />
+            <img src="/react-first-exercise/img/b2.jpg" alt="book" width="100" />
+            <img src="/react-first-exercise/img/b3.jpg" alt="book" width="100" />
         </div>
     </div>
     </div>
