@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background: url('img/input.jpg');
+    background: url('/img/input.jpg');
     background-position: center;
     background-size: cover;
 }
