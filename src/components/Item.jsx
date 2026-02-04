@@ -1,12 +1,12 @@
 
 
-function Item() {
+function Item({img,price}) {
   return (
     <div>
        <div className="n-book">
-            <img src="/react-first-exercise/img/n1.jpg" alt="new-book" width="100" />
+            <img src={img} alt="new-book" width="100" />
             <p>The Book's Name</p>
-            <h3>$120</h3>
+            <h3>{price}</h3>
           </div>
     </div>
   )

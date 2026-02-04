@@ -1,6 +1,28 @@
 import "./Books.css";
 import Item from "./Item";
 
+const bookitems = [
+  {
+    img: "/react-first-exercise/img/n1.jpg",
+    price: "120",
+  },
+  {
+    img: "/react-first-exercise/img/n2.jpg",
+    price: "44",
+  },
+  {
+    img: "/react-first-exercise/img/n3.jpg",
+    price: "87",
+  },
+  {
+    img: "/react-first-exercise/img/n4.jpg",
+    price: "200",
+  },
+  {
+    img: "/react-first-exercise/img/n5.jpg",
+    price: "313",
+  },
+];
 function Books() {
   return (
     <div>
@@ -10,11 +32,11 @@ function Books() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia
         </p>
         <div className="n-books">
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
+          <Item {...bookitems[0]} />
+          <Item {...bookitems[1]} />
+          <Item {...bookitems[2]} />
+          <Item {...bookitems[3]} />
+          <Item {...bookitems[4]} />
         </div>
       </div>
     </div>
