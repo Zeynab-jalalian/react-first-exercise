@@ -1,8 +1,11 @@
+import { useState } from "react";
 import "./Books.css";
 import Item from "./Item";
 
-const bookitems = [
-  {
+
+function Books() {
+  const [bookitems,setBookitems]=useState([
+   {
     img: "/react-first-exercise/img/n1.jpg",
     price: "120",
   },
@@ -22,8 +25,8 @@ const bookitems = [
     img: "/react-first-exercise/img/n5.jpg",
     price: "313",
   },
-];
-function Books() {
+]);
+
   return (
     <div>
       <div className="new">
